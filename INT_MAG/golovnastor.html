@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="golstor.css">
+<script src="https://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
+<script src="https://bootstraptema.ru/plugins/2016/easing/jquery.easing.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="menu"> 
+        <a href="#" id="activator"><img src="https://bootstraptema.ru/snippets/menu/2016/button/menu.png" alt="" /></a>
+        <div class="box" id="box">
+        <div class="box_content">
+        <div class="menu_box_list">
+        <ul>
+        <li class="active"><a href="#">Головна</a></li>
+        <li><a href="#">Чоловічий одяг</a></li>
+        <li><a href="#">Жіночий одяг</a></li>
+        <li><a href="#">Дитячий одяг</a></li>
+        <li><a href="#">Умови відправки</a></li>
+        <div class="clearfix"></div>
+        </ul>
+        </div>
+        <a class="boxclose" id="boxclose"><img src="https://bootstraptema.ru/snippets/menu/2016/button/close.png" alt="" /></a>
+        </div> 
+        </div>
+       
+        <form action="print.php"  method="post">
+        
+            
+            
+        </form>
+
+
+
+</body>
+
+<script>
+    var $ = jQuery.noConflict();
+    $(function() {
+    $('#activator').click(function(){
+    $('#box').animate({'top':'0px'},500);
+    });
+    $('#boxclose').click(function(){
+    $('#box').animate({'top':'-700px'},500);
+    });
+    });
+   </script>
+</html>

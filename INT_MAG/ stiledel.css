@@ -1,0 +1,110 @@
+
+body{
+    height: max-content;
+    background: linear-gradient(to top left, powderblue, pink);
+     margin: none;
+ padding: none;
+ color: white;
+ }
+ .bg_form{
+ 
+     z-index: inherit;
+     background-color: rgba(0, 0, 0, 0.4);
+     padding: 5%;
+ 
+ 
+ }
+ .pos{
+ 
+     position: absolute;
+     top: 25%;
+     
+ 
+ 
+ }
+ 
+ 
+ .d1{
+     width: 100%;
+     position: relative;
+     left: 1px;
+     padding: none;
+     margin-left: none;
+     text-align: center;
+     color: white;
+     margin: 20px;
+     background-color: black;
+ 
+ }
+ 
+ .bgs1{
+ 
+     background: url("https://s1.1zoom.ru/b5050/596/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg") center no-repeat fixed;width: 100% ;
+ 
+     color: white;
+ }
+ 
+ .bgs2{
+ 
+     background: url("https://fullhdoboi.ru/wp-content/uploads/_ph/6/982826865.jpg") center no-repeat fixed;width: 100%;
+ 
+     color: white;
+ }
+ 
+ 
+ .bgs3{
+ 
+     background: url("https://s1.1zoom.me/b4359/980/Forests_Fir_Snow_513438_1920x1080.jpg") center no-repeat fixed;width: 100%;
+     color: white;
+ }
+ 
+ .bgs4{
+ 
+     background: url("1111.jpg") center no-repeat fixed;width: 100%;
+     color: white;
+ }
+ 
+ .bgs1_1{
+ 
+     background: rgba(0, 0, 0, 0.5); 
+ 
+ }
+ 
+ .ul_img{
+ 
+ 
+ list-style-image: url('');
+ 
+ }
+ 
+ 
+ .pos_t{
+ 
+ text-align: center;
+ color: white;
+ background-color: rgba(0, 0, 0, 0.8);
+ 
+ padding: 10px;
+ 
+ 
+ }
+ 
+ .btn {
+     border-radius: 100px;
+     font-size: 18px;
+     font-weight: bold;
+     letter-spacing: 1px;
+     padding: 17px 59px;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+     text-transform: uppercase;
+     box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+    }
+ 
+ 
+ .alg{
+ 
+     text-decoration: none;
+     direction: none;
+     text-align: center;
+     padding-top: 2%;
+ }
