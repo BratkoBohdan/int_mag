@@ -16,7 +16,7 @@ if ($name==''){
      $result=mysqli_query($db,$sql);
      if (mysqli_num_rows($result)>0){
      header('Location: print.php');
-     } else echo " ПІШОВ ТИ НАХУЙ ";
+     } else echo " ви ввели не вірні данні ";
 
 
 
